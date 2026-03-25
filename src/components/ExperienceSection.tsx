@@ -63,7 +63,7 @@ const ExperienceCard = ({ exp, index }: { exp: typeof experiences[0]; index: num
 
       {/* Center timeline dot */}
       <div className="hidden md:flex flex-col items-center">
-        <div className="relative z-10 w-5 h-5 rounded-full border-2 border-primary bg-background shadow-[0_0_20px_hsl(230_70%_52%/0.3)]" />
+        <div className="relative z-10 w-5 h-5 rounded-full border-2 border-primary bg-background shadow-[0_0_20px_hsl(86_14%_30%/0.25)]" />
       </div>
 
       {/* Right content */}
@@ -129,7 +129,7 @@ const ExperienceSection = () => {
 
   return (
     <section ref={containerRef} id="experience" className="relative py-32 px-6 overflow-hidden">
-      <div className="absolute top-1/2 left-0 w-[400px] h-[400px] rounded-full bg-accent/10 blur-[150px] -translate-y-1/2" />
+      <div className="absolute top-1/2 left-0 w-[400px] h-[400px] rounded-full bg-accent/8 blur-[150px] -translate-y-1/2" />
 
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-20">

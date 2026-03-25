@@ -19,7 +19,7 @@ const HeroSection = () => {
 
       {/* Radial glow */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-[600px] h-[600px] rounded-full bg-primary/10 blur-[120px]" />
+        <div className="w-[600px] h-[600px] rounded-full bg-primary/8 blur-[120px]" />
       </div>
 
       <motion.div

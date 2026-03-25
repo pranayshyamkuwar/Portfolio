@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section className="relative py-32 px-6" id="contact">
       {/* Glow */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[150px]" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-primary/8 blur-[150px]" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <ScrollReveal>
