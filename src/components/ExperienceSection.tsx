@@ -63,7 +63,7 @@ const ExperienceCard = ({ exp, index }: { exp: typeof experiences[0]; index: num
 
       {/* Center timeline dot */}
       <div className="hidden md:flex flex-col items-center">
-        <div className="relative z-10 w-5 h-5 rounded-full border-2 border-primary bg-background shadow-[0_0_20px_hsl(28_90%_73%/0.35)]" />
+        <div className="relative z-10 w-5 h-5 rounded-full border-2 border-primary bg-background shadow-[0_0_20px_hsl(38_90%_55%/0.4)]" />
       </div>
 
       {/* Right content */}
