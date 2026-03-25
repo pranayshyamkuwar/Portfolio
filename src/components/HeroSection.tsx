@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <DataFlowBackground />
-      
+
       {/* Radial glow */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px]" />
