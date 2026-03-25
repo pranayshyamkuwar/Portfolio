@@ -2,11 +2,11 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   {
-    title: "Olympics Data Pipeline",
-    subtitle: "Azure Data Factory & Databricks",
+    title: "Autonomous Crypto Trading Bot",
+    subtitle: "AI-Driven Strategy Evolution",
     description:
-      "End-to-end data pipeline for 11,000+ athletes across 47 disciplines from the Tokyo Olympics. Loaded via ADF HTTP connector, transformed on Databricks, and served through Azure Synapse for analytics.",
-    tech: ["Azure Data Factory", "ADLS Gen 2", "Databricks", "Synapse", "SQL"],
+      "Fully automated trading system monitoring 25+ pairs in real time with multi-signal technical analysis (RSI, MACD, Bollinger Bands) and dynamic risk management. Features an AI engine that learns from closed trades to auto-optimize strategy parameters.",
+    tech: ["Python", "Binance API", "Technical Analysis", "Docker", "REST APIs"],
     accent: "primary" as const,
   },
   {
