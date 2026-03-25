@@ -6,47 +6,47 @@
 
 @layer base {
   :root {
-    --background: 80 10% 92%;
-    --foreground: 90 18% 16%;
+    --background: 232 28% 13%;
+    --foreground: 220 15% 90%;
 
-    --card: 80 8% 96%;
-    --card-foreground: 90 18% 16%;
+    --card: 232 24% 17%;
+    --card-foreground: 220 15% 90%;
 
-    --popover: 80 8% 96%;
-    --popover-foreground: 90 18% 16%;
+    --popover: 232 24% 17%;
+    --popover-foreground: 220 15% 90%;
 
-    --primary: 90 18% 17%;
-    --primary-foreground: 80 10% 92%;
+    --primary: 28 90% 73%;
+    --primary-foreground: 232 28% 13%;
 
-    --secondary: 80 8% 86%;
-    --secondary-foreground: 90 15% 25%;
+    --secondary: 232 20% 22%;
+    --secondary-foreground: 220 15% 82%;
 
-    --muted: 80 6% 88%;
-    --muted-foreground: 80 8% 42%;
+    --muted: 232 18% 20%;
+    --muted-foreground: 230 18% 55%;
 
-    --accent: 86 14% 30%;
-    --accent-foreground: 80 10% 92%;
+    --accent: 230 22% 51%;
+    --accent-foreground: 220 15% 92%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 220 15% 95%;
 
-    --border: 80 8% 82%;
-    --input: 80 8% 82%;
-    --ring: 86 14% 30%;
+    --border: 232 18% 24%;
+    --input: 232 18% 24%;
+    --ring: 28 90% 73%;
 
     --radius: 0.75rem;
 
-    --glow-primary: 90 18% 17%;
-    --glow-accent: 86 14% 30%;
+    --glow-primary: 28 90% 73%;
+    --glow-accent: 230 22% 51%;
 
-    --sidebar-background: 80 8% 90%;
-    --sidebar-foreground: 90 15% 25%;
-    --sidebar-primary: 90 18% 17%;
-    --sidebar-primary-foreground: 80 10% 92%;
-    --sidebar-accent: 80 6% 86%;
-    --sidebar-accent-foreground: 90 15% 25%;
-    --sidebar-border: 80 8% 82%;
-    --sidebar-ring: 86 14% 30%;
+    --sidebar-background: 232 26% 15%;
+    --sidebar-foreground: 220 15% 82%;
+    --sidebar-primary: 28 90% 73%;
+    --sidebar-primary-foreground: 232 28% 13%;
+    --sidebar-accent: 232 18% 20%;
+    --sidebar-accent-foreground: 220 15% 82%;
+    --sidebar-border: 232 18% 24%;
+    --sidebar-ring: 28 90% 73%;
   }
 }
 
@@ -64,38 +64,38 @@
   }
 
   ::selection {
-    background: hsl(86 14% 30% / 0.2);
+    background: hsl(28 90% 73% / 0.25);
   }
 }
 
 @layer utilities {
   .text-gradient-primary {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, #2C3424, #4C583E);
+    background-image: linear-gradient(135deg, #f9b17a, #f0c896);
   }
 
   .text-gradient-accent {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, #4C583E, #768064);
+    background-image: linear-gradient(135deg, #676f9d, #8b92b8);
   }
 
   .text-gradient-hero {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, #2C3424, #768064);
+    background-image: linear-gradient(135deg, #ffffff, #676f9d);
   }
 
   .glow-primary {
-    box-shadow: 0 0 60px -12px hsl(90 18% 17% / 0.15);
+    box-shadow: 0 0 60px -12px hsl(28 90% 73% / 0.3);
   }
 
   .glow-accent {
-    box-shadow: 0 0 60px -12px hsl(86 14% 30% / 0.12);
+    box-shadow: 0 0 60px -12px hsl(230 22% 51% / 0.2);
   }
 
   .bg-grid {
     background-image:
-      linear-gradient(hsl(80 8% 82% / 0.6) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(80 8% 82% / 0.6) 1px, transparent 1px);
+      linear-gradient(hsl(232 18% 24% / 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(232 18% 24% / 0.5) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 
@@ -107,7 +107,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.02'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
     pointer-events: none;
     z-index: 0;
   }
